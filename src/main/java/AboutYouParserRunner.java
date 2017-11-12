@@ -8,7 +8,6 @@ import java.util.Properties;
 public class AboutYouParserRunner extends AboutYouFinder {
 
     public static void main(String[] args) {
-        Thread aboutYouParserThread = new Thread(() -> searchByKeyword("jeans"));
-        aboutYouParserThread.start();
+        searchByKeyword("jeans");
     }
 }
